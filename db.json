@@ -1,0 +1,58 @@
+{
+  "list": [
+    {
+      "name": "Bibirinbulu Aremieye",
+      "title": "Coding Python, C# and JavaScript",
+      "email": "bibiaremieye@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Onyinpreye Aremieye",
+      "title": "Logistic and Management",
+      "email": "savvyp@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Erekpokeme Aremieye",
+      "title": "Fashion Designing",
+      "email": "ere@gmail.com",
+      "date": "10/4/2019, 11:55:46 AM",
+      "id": 6
+    },
+    {
+      "name": "Tombra Aremieye",
+      "title": "Coding Python and JavaScript",
+      "email": "tom@gmail.com",
+      "date": "10/4/2019, 11:59:22 AM",
+      "id": 7
+    },
+    {
+      "name": "Ebimobowei Aremieye",
+      "title": "Coding Python and JavaScript",
+      "email": "ebiaremieye@gmail.com",
+      "date": "10/4/2019, 12:26:45 PM",
+      "id": 8
+    },
+    {
+      "name": "Kome Ego",
+      "title": "Coding React",
+      "email": "koko@gmail.com",
+      "date": "10/4/2019, 12:31:53 PM",
+      "id": 9
+    }
+  ],
+  "usersReg": [
+    {
+      "name": "Bibirinbulu Aremieye",
+      "email": "bibiaremieye@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "Ere Aremieye",
+      "email": "ere@gmail.com",
+      "password": "ere",
+      "id": 2
+    }
+  ]
+}
