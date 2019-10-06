@@ -30,12 +30,12 @@ function submitFile(e) {
     if(updateData){
         let name = document.querySelector("#name").value
         let title = document.querySelector("#title").value
-        let email = document.querySelector("#email").value
+        let todo = document.querySelector("#email").value
 
         const data= {
             name,
             title,
-            email,
+            todo,
             date: date.toLocaleString('day')
             
         }
@@ -69,12 +69,12 @@ function submitFile(e) {
 
         let name = document.querySelector("#name").value
         let title = document.querySelector("#title").value
-        let email = document.querySelector("#email").value
+        let todo = document.querySelector("#email").value
 
         const data= {
             name,
             title,
-            email,
+            todo,
             date: date.toLocaleString('day')
         }
 
@@ -118,7 +118,7 @@ function getFile() {
                     <p class="update" id=${datas[i].id}>Update</p>
                     <p>${datas[i].name}</p>
                     <p>${datas[i].title}</p>
-                    <p>${datas[i].email}</p>
+                    <p>${datas[i].todo}</p>
                     <p class="remove" id=${datas[i].id}>X</p>
                 `
             }
@@ -158,14 +158,14 @@ function getFile() {
                         .then(datas => {
                             let name = document.querySelector("#name")
                             let title = document.querySelector("#title")
-                            let email = document.querySelector("#email")
+                            let todo = document.querySelector("#email")
 
                             console.log(datas.name)
                             
 
                             name.value = `${datas.name}`
                             title.value = `${datas.title}`
-                            email.value = `${datas.email}`
+                            todo.value = `${datas.todo}`
                         })
                 }
             })
